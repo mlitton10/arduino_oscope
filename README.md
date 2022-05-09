@@ -1,6 +1,6 @@
 # arduino_oscope
 ![GitHub](https://img.shields.io/github/license/mlitton10/arduino_oscope) ![GitHub issues](https://img.shields.io/github/issues/mlitton10/arduino_oscope)
-[![Code Coverage](https://img.shields.io/codecov/c/github/mlitton10/arduino_oscope)](https://codecov.io/github/mlitton10/arduino_oscope)
+[![Build Status](https://travis-ci.com/mlitton10/arduino_oscope.svg?branch=master)](https://travis-ci.com/mlitton10/arduino_oscope)
 
 Code for data acquisition and transfer to computer via serial transmission.
 
