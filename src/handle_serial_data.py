@@ -81,6 +81,7 @@ for t, v in zip(ts,volts):
     data_out.append([t,v])
 
 sub = in_file[:-4]
+sub2 = in_file[8:-4]
 ext = in_file[-4:]
 with open(sub+'_clean'+ext, 'w', encoding='UTF8', newline='') as f:
     writer = csv.writer(f)
@@ -108,5 +109,5 @@ ax2.set_xlabel('f [Hz]')
 ax2.set_ylabel('Power Spec.')
 ax2.set_yscale('log')
 ax2.grid(True)
-fig.savefig(sub+"_figure"+".pdf")
+fig.savefig("../plots/"+sub2+"_figure"+".pdf")
 plt.show()
