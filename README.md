@@ -1,5 +1,5 @@
 # arduino_oscope
-[!GitHub](https://img.shields.io/github/license/mlitton10/arduino_oscope)
+![GitHub](https://img.shields.io/github/license/mlitton10/arduino_oscope)
 
 Code for data acquisition and transfer to computer via serial transmission.
 
