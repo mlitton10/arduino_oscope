@@ -2,6 +2,14 @@
 ![GitHub](https://img.shields.io/github/license/mlitton10/arduino_oscope) ![GitHub issues](https://img.shields.io/github/issues/mlitton10/arduino_oscope)
 Code for data acquisition and transfer to computer via serial transmission.
 
+Some notes:
+Arduino Serial transmission baud rates:
+300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, or 115200
+Integer per second rates (divide by 10 bits):
+30, 60, 120, 240, 480, 960, 1440, 1920, 2880, 3840, 5760, 11520
+
+We can use any of these baud rates for collection.
+
 
 Current State of the code in version 1.0.1:
 
