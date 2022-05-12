@@ -1,9 +1,11 @@
 #!/bin/bash
 
 BAUD_RATE=$1
-NUM_SAMPLE=$2
+TIME=$2
 OUT_FILE=$3
 ARDUINO_FILE=$4
+
+NUM_SAMPLE=$(($TIME*$BAUD_RATE/10))
 
 echo $BAUD_RATE
 echo $NUM_SAMPLE
@@ -32,7 +34,7 @@ $arduino_compile
 arduino_upload="arduino-cli upload -b arduino:avr:uno "$ARDUINO_SUB
 ARGS=$BAUD_RATE" "$NUM_SAMPLE" "$OUT_FILE
 
-echo $ARGS
+#echo $ARGS
 
 PROCESSING_LOC="/home/mattl/processing-4.0b8/"
 PROCESSING_SKETCH_LOC="/home/mattl/arduino_oscope/src/sketch_data_handler/"
